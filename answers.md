@@ -163,6 +163,99 @@ function animals(chickens, cows, pigs) {
 }
 ```
 
+###Using the "&&" Operator
+
+```
+function and(a, b) {
+	return a && b
+}
+```
+###Are the Numbers Equal?
+
+```
+function isSameNum(num1, num2) {
+	return num1 === num2?true:false
+}
+```
+###Football Points
+
+```
+function footballPoints(wins, draws, losses) {
+	wins=wins*3
+	return wins+draws
+}
+```
+###Convert Hours and Minutes into Seconds
+
+```
+function convert(hours, minutes) {
+	hours=(hours*60)*60;
+	let result =(minutes*60)+hours;
+	return result
+}
+
+```
+###Fix the Expression
+
+```
+function isSeven(x) {
+	return x=="7"?true:false;
+}
+
+```
+###Equality Check
+
+```
+function checkEquality(a, b) {
+  return a===b
+}
+
+```
+###Profitable Gamble
+
+```
+function profitableGamble(prob, prize, pay) {
+	return (prob*prize)-pay>0
+}
+
+```
+###Boolean to String Conversion
+
+```
+function boolToString(flag) {
+	return String(flag)
+}
+
+```
+###Using Arrow Functions
+
+```
+// create your arrow function below
+const arrowFunc=(a)=>{
+	return a
+}
+
+```
+###Frames Per Second
+
+```
+function frames(minutes, fps) {
+	minutes=minutes*60;
+	return minutes*fps;
+}
+
+```
+###Miserable Parody of a Calculator
+
+```
+function calculator(str) {
+	return eval(str)
+}
+
+```
+
+
+
 
 
 
