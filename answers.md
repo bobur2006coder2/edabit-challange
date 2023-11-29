@@ -75,4 +75,95 @@ function findPerimeter(length, width) {
 }
 
 ```
+###Return Something to Me!
+
+```
+function giveMeSomething(a) {
+	return `something ${a}`
+}
+
+```
+###Basic Variable Assignment
+
+```
+function nameString(name){
+	var b = "Edabit"
+	var result = name + b
+  	return result
+}
+
+```
+###Correct the Mistakes
+
+```
+function squared (b) {
+	return b * b;
+}
+
+```
+###Is the Number Less than or Equal to Zero?
+
+```
+function lessThanOrEqualToZero(num) {
+	return num>0?false:true
+}
+
+```
+###Sum of Polygon Angles
+
+```
+function sumPolygon(n) {
+	return (n - 2) * 180
+}
+
+```
+###Basketball Points
+
+```
+function points(twoPointers, threePointers) {
+	return (twoPointers*2)+(threePointers*3)
+}
+
+```
+###Less Than 100?
+
+```
+function lessThan100(a, b) {
+	return a+b>=100?false:true 
+}
+
+```
+###Buggy Code (Part 5)
+
+```
+function printArray(number) {
+  var newArray = [];
+
+  for(let i = 1; i <= number; i++) {
+    newArray.push(i);
+  }
+  return newArray;
+}
+```
+###Buggy Code (Part 7)
+
+```
+function swap(a, b) {
+	return [b, a]
+}
+```
+###The Farm Problem
+
+```
+function animals(chickens, cows, pigs) {
+	chickens=chickens*2
+	cows=cows*4
+	pigs=pigs*4
+	return chickens+cows+pigs
+}
+```
+
+
+
+
 
