@@ -254,6 +254,120 @@ function calculator(str) {
 
 ```
 
+30 ta bo'ldi
+
+###Reusable numbers !
+
+```
+const arr=[1,1,2,2,4,3,5,3,3]
+let reusableNum=0;
+for(let i = 0; i<arr.length; i++){
+    if(arr[i]==5){
+        reusableNum++
+    }
+}
+
+console.log(reusableNum)
+
+```
+###Finds the sum of the numbers in arr.
+
+```
+const arr=[10,2,3];
+let result=0;
+for(let i = 0; i< arr.length; i++){
+    result+=arr[i];
+   }
+
+console.log(result);
+
+
+```
+###Determining which number is the square of a number:
+
+```
+let n=10000;
+const kvadrat= (1/0);
+
+for(let i = 0; i<=kvadrat; i++){
+    if(i**2==n){
+        console.log(`bu son ${i} ning kvadrati hisoblanadi. `)
+    }else{
+        
+    }
+}
+
+
+
+```
+###Find the largest number in an array.
+
+```
+const arr=[110,334,-1,35,30];
+
+for(let i=0;i <arr.length; i++){
+    if(bestBig>arr[i]){
+    }else{
+       var bestBig=arr[i]
+        console.log(bestBig)
+    }
+}
+
+```
+###Buggy Code (Part 4)
+
+
+```
+function greeting(name) {
+ if(name === "Mubashir") {
+    return "Hello, my Love!";
+  }else{
+		 return "Hello, " + name + "!";
+	}
+}
+
+```
+###Two Makes Ten
+
+
+```
+function makesTen(a, b) {
+	return a+b==10 || a==10|| b==10;
+}
+
+```
+###Let's Fuel Up!
+
+
+```
+function calculateFuel(n) {
+	return n*10>=100?n*10:100
+}
+```
+
+###Buggy Code (Part 2)
+
+
+```
+function maxNum(n1,n2) {
+	return n1>=n2?n1:n2
+}
+
+```
+###Pair Management
+
+
+```
+function makePair(num1, num2) {
+	return [num1,num2]
+}
+
+```
+
+
+
+
+
 
 
 
