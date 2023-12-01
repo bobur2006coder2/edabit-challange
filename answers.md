@@ -363,6 +363,15 @@ function makePair(num1, num2) {
 }
 
 ```
+###Compare Strings by Count of Characters
+
+
+```
+function comp(str1, str2) {
+	return str1.length==str2.length
+}
+
+```
 
 
 
