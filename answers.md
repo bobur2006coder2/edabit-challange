@@ -373,6 +373,87 @@ function comp(str1, str2) {
 
 ```
 
+40ta bo'ldi .
+
+###Is the String Empty?
+
+
+```
+function isEmpty(s) {
+	return !s
+}
+
+```
+###Check if an Integer is Divisible By Five
+
+
+```
+function divisibleByFive(n) {
+	return !Boolean(n%5)
+}
+
+```
+###Multiple of 100
+
+
+```
+function divisible(num) {
+	return num %100==0
+}
+
+```
+###Recursion: Length of a String
+
+```
+function length(str) {
+	return str.length
+}
+
+```
+###Divides Evenly
+
+```
+function dividesEvenly(a, b) {
+	return a%b===0
+}
+```
+###Return a String as an Integer
+
+```
+function dividesEvenly(a, b) {
+	return a%b===0
+}
+```
+###Area of a Rectangle
+
+```
+function area(h, w) {
+	return h>0 && w>0&& h*w>0?h*w:-1
+}
+
+```
+
+###How to make push method ?.
+
+```
+
+const comingInfo=prompt("ixtiyoriy narsa kiriting !")
+
+let arr=["one",true,123,"hello"];
+var best;
+for(let i=0; arr[i]!==undefined; i++){
+    var best=i+1
+}
+arr[best]=comingInfo;
+console.log(arr);
+
+```
+
+
+
+
+
+
 
 
 
